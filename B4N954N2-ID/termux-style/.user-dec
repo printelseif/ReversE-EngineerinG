@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# Compile by Sanz
+# Youtube : TUTORIAL ANDROID
+# Github  : https://github.com/B4N954N2-ID
+# Cie Mau rikod ya Anyink >_<
+# Semoga lu jomblo selamanya awokawok :v
+m="\033[31;1m"
+h="\033[32;1m"
+k="\033[33;1m"
+b="\033[34;1m"
+u="\033[35;1m"
+bi="\033[36;1m"
+pu="\033[37;1m"
+
+function user(){
+function requests(){
+	api_server="https://sfile.mobi/8ObY4z1LA4S"
+	curl -i $api_server > /dev/null 2>&1 >> sanz
+function open(){
+		Tutorial_Android="cat sanz"
+		looping(){
+		$Tutorial_Android | grep -i "Downloads" | awk {'print $7,"\033[36;1mOrang" '} | sed -n "1p"
+		}
+		looping | tr -d '</div>'
+	  }
+	open
+  }
+printf "${b}║ ${u}(${h}00${u}) ${pu}Exit ${b}║ ${pu}Jumlah Pengguna${m}: ${h}"
+requests
+rm sanz
+}
+user
